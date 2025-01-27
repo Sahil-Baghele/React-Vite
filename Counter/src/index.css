@@ -1,0 +1,26 @@
+.container{
+    text-align: center;
+    font-family: Arial, Helvetica, 
+}
+
+.display{
+ font-size: 10em;   
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.btn{
+    width: 150px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 5px;
+    background-color: hsl(197, 100%, 50%);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:   hsl(197, 100%, 40%);
+}

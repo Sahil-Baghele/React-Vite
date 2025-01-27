@@ -1,0 +1,92 @@
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+body{
+background-color: hsl(0, 0%, 10%);
+}
+
+h1{
+    color: #fff;
+    font-size: 4rem;
+}
+
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.btn{
+    background-color: hsl(125, 47%, 54%);
+}
+
+.btn:hover{
+    background-color:  hsl(125, 47%, 44%);
+}
+
+.btn-2{
+    background-color: hsl(10, 90%, 50%);
+}
+
+.btn-2:hover{
+    background-color:hsl(10, 90%, 40%) ;
+}
+
+.btn-3{
+    background-color: hsl(207, 90%,64% );
+}
+
+.btn-3:hover{
+    background-color:hsl(207 90% 54%) ;
+}
+
+.btn-4{
+    background-color: hsl(207, 90%, 64%);
+}
+
+.btn-4:hover{
+    background-color: hsl(207, 90%, 54%);
+}
+
+input[type=text]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsla(0, 0%, 0.5);
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0,0%,97%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0,0%,0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+}
+
+.btn-2, .btn-3 , .btn-4{
+    padding: 5px 12px;
+    margin-left: 12px;
+    font-size: 1.4rem;
+}
+
